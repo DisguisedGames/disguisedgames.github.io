@@ -1,8 +1,7 @@
-module.exports = {
-    // https://github.com/vercel/next.js/issues/21079
-    // Remove this workaround whenever the issue is fixed
-    images: {
-      loader: 'imgix',
-      path: '/',
-    },
-  }
+const withOptimizedImages = require('next-optimized-images');
+
+module.exports = withOptimizedImages({
+  /* config for next-optimized-images */
+
+  // your config for other plugins or the general next.js here...
+}); 
