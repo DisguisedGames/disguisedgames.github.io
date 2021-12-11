@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [14.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -33,5 +33,6 @@ jobs:
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@4.1.7
       with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: gh-pages # The branch the action should deploy to.
         folder: out # The folder the action should deploy.
