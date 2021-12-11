@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Nav = styled.nav`
     height: 80px;
@@ -13,7 +14,7 @@ const Nav = styled.nav`
 const StyledLink = styled.a`
     padding: 0rem 2rem;
     justify-content: center;
-    img { 
+    Image { 
         font-size: 1.5rem;
         justify-content: center;
         align-items: center;
@@ -30,17 +31,17 @@ const Navbar = () => {
             <div>
                 <Link href='/games' passHref>
                     <StyledLink>
-                        <img src="/games.svg" alt="Games" />
+                        <Image src='/games.svg' alt="Games" />
                     </StyledLink>
                 </Link>
                 <Link href='/' passHref>
                     <StyledLink>
-                        <img src="/home.svg" alt="Home" />
+                        <Image src='/home.svg' alt="Home" />
                     </StyledLink>
                 </Link>
                 <Link href='/settings' passHref>
                     <StyledLink>
-                        <img src="/settings.svg" alt="Settings" />
+                        <Image src='/settings.svg' alt="Settings" />
                     </StyledLink>
                 </Link>
             </div>
