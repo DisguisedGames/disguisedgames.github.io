@@ -2285,6 +2285,8 @@
   "version" "6.0.2"
   dependencies:
     "is-glob" "^4.0.3"
+glob-parent@^5.1.2:
+  version "5.1.2"
 
 "glob-to-regexp@^0.3.0":
   "integrity" "sha1-jFoUlNIGbFcMw7/kSWF1rMTVAqs="
