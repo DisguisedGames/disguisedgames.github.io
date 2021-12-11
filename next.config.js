@@ -1,12 +1,8 @@
-const withPlugins = require('next-compose-plugins');
-const optimizedImages = require('next-optimized-images');
-
-module.exports = withPlugins([
-  {
-    reactStrictMode: true,
-  },
-  [optimizedImages, {
-    /* config for next-optimized-images */
-  }],
-  
-]);
+module.exports = {
+    // https://github.com/vercel/next.js/issues/21079
+    // Remove this workaround whenever the issue is fixed
+    images: {
+      loader: 'imgix',
+      path: '/',
+    },
+  }
