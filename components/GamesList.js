@@ -114,7 +114,7 @@ const GameList = () => {
                         <Text>BL 2020</Text>
                         <Describe>Basketball Legends 2020.</Describe>
                         <Link href='/play/basketball-legends-2020' passHref>
-                            <StyledLink> <Image src="/data/gameIcons/basketball-legends-2020.png" alt="Game Image" height="232px" width="238px"/ loader={sanityIoImageLoader} > </StyledLink>
+                            <StyledLink> <Image src="/data/gameIcons/basketball-legends-2020.png" alt="Game Image" height="232px" width="238px" loader={sanityIoImageLoader} /> </StyledLink>
                         </Link>
                     </Game>
                     <Game>
