@@ -2,16 +2,16 @@ import styled from "styled-components";
 import Link from 'next/link';
 import Image from "next/image";
 
-import Vex3 from "./data/gameIcons/vex3.png";
-import Vex4 from "./data/gameIcons/vex4.png";
-import Vex5 from "./data/gameIcons/vex5.png";
-import Vex6 from "./data/gameIcons/vex6.png";
-import BasketballLegends2020 from "./data/gameIcons/basketball-legends-2020.png";
-import IdleStartupTycoon from "./data/gameIcons/idle-startup-tycoon.png";
-import Paperio2 from "./data/gameIcons/paperio-2.jpeg";
-import Aquaparkio from "./data/gameIcons/aquaparkio.jpeg";
-import TwoBall3D from "./data/gameIcons/two-ball-3d.jpeg";
-import Snake from "./data/gameIcons/snake.png";
+import Aquaparkio from "/data/gameIcons/aquaparkio.jpeg";
+import Vex3 from "/data/gameIcons/vex3.png";
+import Vex4 from "/data/gameIcons/vex4.png";
+import Vex5 from "/data/gameIcons/vex5.png";
+import Vex6 from "/data/gameIcons/vex6.png";
+import BasketballLegends2020 from "/data/gameIcons/basketball-legends-2020.png";
+import IdleStartupTycoon from "/data/gameIcons/idle-startup-tycoon.png";
+import Paperio2 from "/data/gameIcons/paperio-2.jpeg";
+import TwoBall3D from "/data/gameIcons/two-ball-3d.jpeg";
+import Snake from "/data/gameIcons/snake.png";
 
 const sanityIoImageLoader = ({ src, width, quality }) => {
     return `https://cdn.sanity.io/${src}?w=${width}&q=${quality || 75}`
