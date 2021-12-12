@@ -9,6 +9,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@jamesives/github-pages-deploy-action": "^4.1.7",
     "@sanity/client": "^2.23.0",
     "babel": "^6.23.0",
     "babel-plugin-styled-components": "^2.0.2",
