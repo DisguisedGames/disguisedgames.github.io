@@ -14,13 +14,6 @@ const Nav = styled.nav`
 const StyledLink = styled.a`
     padding: 0rem 2rem;
     justify-content: center;
-    Image { 
-        font-size: 1.5rem;
-        justify-content: center;
-        align-items: center;
-        width: 2rem;
-        height: 2rem;
-    }
 `;
 
 const prefix = '/';
@@ -31,17 +24,17 @@ const Navbar = () => {
             <div>
                 <Link href='/games' passHref>
                     <StyledLink>
-                        <Image src='https://res.cloudinary.com/disguised/image/upload/v1639319393/navbar/games_w4p74d.png' alt="Games" width='25rem' height='25rem' />
+                        <Image src='https://res.cloudinary.com/disguised/image/upload/v1639319393/navbar/games_w4p74d.png' alt="Games" width={25} height={25} />
                     </StyledLink>
                 </Link>
                 <Link href='/' passHref>
                     <StyledLink>
-                        <Image src='https://res.cloudinary.com/disguised/image/upload/v1639319393/navbar/home_xxgjce.png' alt="Home" width='25rem' height='25rem' />
+                        <Image src='https://res.cloudinary.com/disguised/image/upload/v1639319393/navbar/home_xxgjce.png' alt="Home" width={25} height={25} />
                     </StyledLink>
                 </Link>
                 <Link href='/settings' passHref>
                     <StyledLink>
-                        <Image src='https://res.cloudinary.com/disguised/image/upload/v1639319393/navbar/settings_zl8i80.png' alt="Settings" width='25rem' height='25rem' />
+                        <Image src='https://res.cloudinary.com/disguised/image/upload/v1639319393/navbar/settings_zl8i80.png' alt="Settings" width={25} height={25} />
                     </StyledLink>
                 </Link>
             </div>
