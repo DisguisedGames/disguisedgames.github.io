@@ -23,7 +23,7 @@ export default function Game() {
             <Head>
                 <title>Two Ball 3D | Disguised</title>
                 <meta name="description" content="Not really disguised tho." />
-                <link rel="icon" href="/icon.ico" />
+                <link rel="icon" href="/img/icon.ico" />
             </Head>
             <Layout>
                 <iframe src="https://html5.gamedistribution.com/a3a9ba96f58c45728d56ea8d0014de14/" title="description"></iframe>

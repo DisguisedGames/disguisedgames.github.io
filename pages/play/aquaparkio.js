@@ -23,7 +23,7 @@ export default function Game() {
             <Head>
                 <title>Aquapark.io | Disguised</title>
                 <meta name="description" content="Not really disguised tho." />
-                <link rel="icon" href="/icon.ico" />
+                <link rel="icon" href="/img/icon.ico" />
             </Head>
             <Layout>
                 <iframe src="https://html5.gamedistribution.com/ce67b95f0db44d66b8b0dc48ade7ce1a/" title="description"></iframe>

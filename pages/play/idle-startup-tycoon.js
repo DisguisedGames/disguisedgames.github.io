@@ -23,7 +23,7 @@ export default function Game() {
             <Head>
                 <title>Idle Startup Tycoon | Disguised</title>
                 <meta name="description" content="Not really disguised tho." />
-                <link rel="icon" href="/icon.ico" />
+                <link rel="icon" href="/img/icon.ico" />
             </Head>
             <Layout>
                 <iframe src="https://html5.gamedistribution.com/c3a9f519b4ae4896b34025486dc2ed13/" title="Game"></iframe>

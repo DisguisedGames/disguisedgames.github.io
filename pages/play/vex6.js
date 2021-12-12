@@ -23,7 +23,7 @@ export default function Game() {
             <Head>
                 <title>Vex6 | Disguised</title>
                 <meta name="description" content="Not really disguised tho." />
-                <link rel="icon" href="/icon.ico" />
+                <link rel="icon" href="/img/icon.ico" />
             </Head>
             <Layout>
                 <iframe src="https://html5.gamedistribution.com/4925e12574364121a48c61c35f649c36/" title="description"></iframe>

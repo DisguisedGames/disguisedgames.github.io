@@ -1,6 +1,4 @@
 module.exports = {
-    images: {
-        loader: 'cloudinary',
-        path: '/'
-    }
+    basePath: '',
+    assetPrefix: '/'
 }

@@ -23,7 +23,7 @@ export default function About() {
       <Head>
         <title>Settings | Disguised</title>
         <meta name="description" content="Not really disguised tho." />
-        <link rel="icon" href="/icon.ico" />
+        <link rel="icon" href="/img/icon.ico" />
       </Head>
       <Hero>
         <Heading>Settings</Heading>

@@ -23,7 +23,7 @@ export default function Game() {
             <Head>
                 <title>Snake | Disguised</title>
                 <meta name="description" content="Not really disguised tho." />
-                <link rel="icon" href="/icon.ico" />
+                <link rel="icon" href="/img/icon.ico" />
             </Head>
             <Layout>
                 <iframe src="https://www.googlesnake.com/snakedesktop.php" title="Game"></iframe>

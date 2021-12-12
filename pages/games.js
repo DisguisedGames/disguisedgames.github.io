@@ -31,7 +31,7 @@ export default function Games() {
       <Head>
         <title>Games | Disguised</title>
         <meta name="description" content="Not really disguised tho." />
-        <link rel="icon" href="/icon.ico" />
+        <link rel="icon" href="img/icon.ico" />
       </Head>
       <Hero>
         <Heading>Games</Heading>

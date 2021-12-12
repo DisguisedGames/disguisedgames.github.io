@@ -23,7 +23,7 @@ export default function Game() {
             <Head>
                 <title>Basketball Legends 2020 | Disguised</title>
                 <meta name="description" content="Not really disguised tho." />
-                <link rel="icon" href="/icon.ico" />
+                <link rel="icon" href="/img/icon.ico" />
             </Head>
             <Layout>
                 <iframe src="https://html5.gamedistribution.com/3dbd133d0cd9468bafdf2c9812290f4b/" title="description"></iframe>

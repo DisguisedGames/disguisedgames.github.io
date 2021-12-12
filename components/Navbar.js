@@ -21,14 +21,11 @@ const StyledLink = styled.a`
         align-items: center;
         width: 2rem;
         height: 2rem;
-        
+        filter: invert(93%) sepia(100%) saturate(28%) hue-rotate(45deg) brightness(107%) contrast(106%);
     }
 `;
 
-const sanityIoImageLoader = ({ src, width, quality }) => {
-    return `https://cdn.sanity.io/${src}?w=${width}&q=${quality || 75}`
-}
-
+const prefix = '/';
 
 const Navbar = () => {
     return (
@@ -36,17 +33,17 @@ const Navbar = () => {
             <div>
                 <Link href='/games' passHref>
                     <StyledLink>
-                        <Image src='/games.svg' alt="Games" width="25rem" height="25rem" loader={sanityIoImageLoader} />
+                        <Image src={'/data/navIcons/games.svg'} alt="Games" width="25rem" height="25rem" />
                     </StyledLink>
                 </Link>
                 <Link href='/' passHref>
                     <StyledLink>
-                        <Image src='/home.svg' alt="Home" width="25rem" height="25rem" loader={sanityIoImageLoader} />
+                        <Image src={'/data/navIcons/home.svg'} alt="Home" width="25rem" height="25rem" />
                     </StyledLink>
                 </Link>
                 <Link href='/settings' passHref>
                     <StyledLink>
-                        <Image src='/settings.svg' alt="Settings" width="25rem" height="25rem" loader={sanityIoImageLoader} />
+                        <Image src={'/data/navIcons/settings.svg'} alt="Settings" width="25rem" height="25rem" />
                     </StyledLink>
                 </Link>
             </div>

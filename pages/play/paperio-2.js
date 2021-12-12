@@ -23,7 +23,7 @@ export default function Game() {
             <Head>
                 <title>Paper.io 2 | Disguised</title>
                 <meta name="description" content="Not really disguised tho." />
-                <link rel="icon" href="/icon.ico" />
+                <link rel="icon" href="/img/icon.ico" />
             </Head>
             <Layout>
                 <iframe src="https://html5.gamedistribution.com/c5d4966b176246748d6c847103ebfd51/" title="description"></iframe>
