@@ -26,7 +26,7 @@ export default function Game() {
                 <link rel="icon" href="/img/icon.ico" />
             </Head>
             <Layout>
-                <iframe src="https://www.googlesnake.com/snakedesktop.php" title="Game" frameborder="0"allowfullscreen></iframe>
+                <iframe src="https://www.googlesnake.com/snakedesktop.php" title="Game" frameborder="0" allowfullscreen></iframe>
             </Layout>
         </>
     )
