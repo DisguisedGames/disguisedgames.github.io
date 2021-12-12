@@ -21,12 +21,12 @@ export default function Game() {
     return (
         <>
             <Head>
-                <title>Idle Startup Tycoon | Disguised</title>
+                <title>Moto X3M Pool Party | Disguised</title>
                 <meta name="description" content="Not really disguised tho." />
                 <link rel="icon" href="/img/icon.ico" />
             </Head>
             <Layout>
-                <iframe src="https://html5.gamedistribution.com/c3a9f519b4ae4896b34025486dc2ed13/" title="Game" frameBorder="0" allowFullScreen></iframe>
+                <iframe src="https://html5.gamedistribution.com/f804d079d19f44d3b951ead4588e974a/" title="Game" frameBorder="0" allowFullScreen></iframe>
             </Layout>
         </>
     )
