@@ -2,6 +2,10 @@ import styled from "styled-components";
 import Link from 'next/link';
 import Image from "next/image";
 
+const sanityIoImageLoader = ({ src, width, quality }) => {
+    return `https://cdn.sanity.io/${src}?w=${width}&q=${quality || 75}`
+  }
+
 const Nav = styled.nav`
     height: 70vh;
     width: 75%;
