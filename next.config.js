@@ -3,7 +3,7 @@ module.exports = {
         loader: 'cloudinary',
         path: '',
         domains: [
-            'res.cloudinary.com',
+            'res.cloudinary.com/disguised/image/upload/',
         ]
     }
 }
