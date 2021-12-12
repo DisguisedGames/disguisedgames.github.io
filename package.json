@@ -12,6 +12,7 @@
     "babel": "^6.23.0",
     "babel-plugin-styled-components": "^2.0.2",
     "cloudinary": "^1.27.1",
+    "cloudinary-react": "^1.7.0",
     "extracted-loader": "^1.0.7",
     "file-loader": "^6.2.0",
     "ignore-loader": "^0.1.2",
