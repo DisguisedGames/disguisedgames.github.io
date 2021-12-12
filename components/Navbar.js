@@ -25,6 +25,10 @@ const StyledLink = styled.a`
     }
 `;
 
+const sanityIoImageLoader = ({ src, width, quality }) => {
+    return `https://cdn.sanity.io/${src}?w=${width}&q=${quality || 75}`
+}
+
 
 const Navbar = () => {
     return (
@@ -32,17 +36,17 @@ const Navbar = () => {
             <div>
                 <Link href='/games' passHref>
                     <StyledLink>
-                        <Image src='/games.svg' alt="Games" width="25rem" height="25rem" />
+                        <Image src='/games.svg' alt="Games" width="25rem" height="25rem" loader={sanityIoImageLoader} />
                     </StyledLink>
                 </Link>
                 <Link href='/' passHref>
                     <StyledLink>
-                        <Image src='/home.svg' alt="Home" width="25rem" height="25rem" />
+                        <Image src='/home.svg' alt="Home" width="25rem" height="25rem" loader={sanityIoImageLoader} />
                     </StyledLink>
                 </Link>
                 <Link href='/settings' passHref>
                     <StyledLink>
-                        <Image src='/settings.svg' alt="Settings" width="25rem" height="25rem" />
+                        <Image src='/settings.svg' alt="Settings" width="25rem" height="25rem" loader={sanityIoImageLoader} />
                     </StyledLink>
                 </Link>
             </div>
