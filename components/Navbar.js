@@ -33,17 +33,17 @@ const Navbar = () => {
             <div>
                 <Link href='/games' passHref>
                     <StyledLink>
-                        <Image src={'https://res.cloudinary.com/disguised/image/upload/v1639299547/navbar/games_ujrjwn.svg'} alt="Games" width={25} height={25} />
+                        <Image src={'https://res.cloudinary.com/disguised/image/upload/v1639299547/games_ujrjwn.svg'} alt="Games" width={25} height={25} />
                     </StyledLink>
                 </Link>
                 <Link href='/' passHref>
                     <StyledLink>
-                        <Image src={'https://res.cloudinary.com/disguised/image/upload/v1639299547/navbar/home_joltfc.svg'} alt="Home" width={25} height= {25} />
+                        <Image src={'https://res.cloudinary.com/disguised/image/upload/v1639299547/home_joltfc.svg'} alt="Home" width={25} height={25} />
                     </StyledLink>
                 </Link>
                 <Link href='/settings' passHref>
                     <StyledLink>
-                        <Image src={'https://res.cloudinary.com/disguised/image/upload/v1639299547/navbar/settings_gcgfx3.svg'} alt="Settings" width={25} height={25} />
+                        <Image src={'https://res.cloudinary.com/disguised/image/upload/v1639299547/settings_gcgfx3.svg'} alt="Settings" width={25} height={25} />
                     </StyledLink>
                 </Link>
             </div>
