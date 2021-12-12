@@ -109,7 +109,7 @@ const GameList = () => {
                         </Link>
                     </Game>
                     <Game>
-                        <Text>Snake</Text>
+                        <Text>Google Snake</Text>
                         <Describe>The google snake game.</Describe>
                         <Link href='/play/snake' passHref>
                             <StyledLink> <Image src={'v1639299395/snake_txdsv0.png'} alt="Game Image" height={232} width={238} /> </StyledLink>
