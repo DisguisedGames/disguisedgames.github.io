@@ -2,6 +2,10 @@ import styled from 'styled-components';
 import Link from 'next/link';
 import Image from 'next/image';
 
+const sanityIoImageLoader = ({ src, width, quality }) => {
+    return `https://cdn.sanity.io/${src}?w=${width}&q=${quality || 75}`
+  }
+
 const Nav = styled.nav`
     height: 80px;
     background-color: #0e0e0e;
@@ -33,17 +37,17 @@ const Navbar = () => {
             <div>
                 <Link href='/games' passHref>
                     <StyledLink>
-                        <Image src={'/data/navIcons/games.svg'} alt="Games" width="25rem" height="25rem" />
+                        <Image src={'/data/navIcons/games.svg'} alt="Games" width={25} height={25} loader={sanityIoImageLoader} />
                     </StyledLink>
                 </Link>
                 <Link href='/' passHref>
                     <StyledLink>
-                        <Image src={'/data/navIcons/home.svg'} alt="Home" width="25rem" height="25rem" />
+                        <Image src={'/data/navIcons/home.svg'} alt="Home" width={25} height= {25} loader={sanityIoImageLoader} />
                     </StyledLink>
                 </Link>
                 <Link href='/settings' passHref>
                     <StyledLink>
-                        <Image src={'/data/navIcons/settings.svg'} alt="Settings" width="25rem" height="25rem" />
+                        <Image src={'/data/navIcons/settings.svg'} alt="Settings" width={25} height={25} loader={sanityIoImageLoader} />
                     </StyledLink>
                 </Link>
             </div>
