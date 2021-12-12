@@ -2,13 +2,6 @@ import styled from 'styled-components';
 import Link from 'next/link';
 import Image from 'next/image';
 
-import gamesImg from '/data/navIcons/games.svg';
-import homeImg from '/data/navIcons/home.svg';
-import settingsImg from '/data/navIcons/settings.svg';
-
-const sanityIoImageLoader = ({ src, width, quality }) => {
-    return `https://cdn.sanity.io/${src}?w=${width}&q=${quality || 75}`
-  }
 
 const Nav = styled.nav`
     height: 80px;
@@ -29,7 +22,7 @@ const StyledLink = styled.a`
         align-items: center;
         width: 2rem;
         height: 2rem;
-        filter: invert(93%) sepia(100%) saturate(28%) hue-rotate(45deg) brightness(107%) contrast(106%);
+        filter: invert(93%) sepia(100%) saturate(28%) hue-rotate(45deg) brightness(107%) contrast(106%);    
     }
 `;
 
@@ -41,17 +34,17 @@ const Navbar = () => {
             <div>
                 <Link href='/games' passHref>
                     <StyledLink>
-                        <Image src={gamesImg} alt="Games" width={25} height={25} loader={sanityIoImageLoader} />
+                        <Image src={'https://res.cloudinary.com/disguised/image/upload/v1639299547/navbar/games_ujrjwn.svg'} alt="Games" width={25} height={25} />
                     </StyledLink>
                 </Link>
                 <Link href='/' passHref>
                     <StyledLink>
-                        <Image src={homeImg} alt="Home" width={25} height= {25} loader={sanityIoImageLoader} />
+                        <Image src={'https://res.cloudinary.com/disguised/image/upload/v1639299547/navbar/home_joltfc.svg'} alt="Home" width={25} height= {25} />
                     </StyledLink>
                 </Link>
                 <Link href='/settings' passHref>
                     <StyledLink>
-                        <Image src={settingsImg} alt="Settings" width={25} height={25} loader={sanityIoImageLoader} />
+                        <Image src={'https://res.cloudinary.com/disguised/image/upload/v1639299547/navbar/settings_gcgfx3.svg'} alt="Settings" width={25} height={25} />
                     </StyledLink>
                 </Link>
             </div>

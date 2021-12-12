@@ -1,4 +1,7 @@
 module.exports = {
-    basePath: '',
-    assetPrefix: ''
+    images: {
+        domains: [
+            'res.cloudinary.com',
+        ]
+    }
 }
