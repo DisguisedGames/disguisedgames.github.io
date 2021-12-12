@@ -1,7 +1,7 @@
 module.exports = {
     images: {
         loader: 'cloudinary',
-        path: '/',
+        path: '',
         domains: [
             'res.cloudinary.com',
         ]
