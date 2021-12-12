@@ -5,7 +5,8 @@
     "dev": "next dev",
     "build": "next build",
     "lint": "next lint",
-    "export": "next export"
+    "export": "next export",
+    "start": "next start"
   },
   "dependencies": {
     "@sanity/client": "^2.23.0",
