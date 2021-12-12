@@ -26,7 +26,7 @@ export default function Game() {
                 <link rel="icon" href="/img/icon.ico" />
             </Head>
             <Layout>
-                <iframe src="https://html5.gamedistribution.com/c5d4966b176246748d6c847103ebfd51/" title="description" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://html5.gamedistribution.com/c5d4966b176246748d6c847103ebfd51/" title="description" frameBorder="0" allowFullScreen></iframe>
             </Layout>
         </>
     )
