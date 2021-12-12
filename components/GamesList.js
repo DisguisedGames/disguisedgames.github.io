@@ -66,6 +66,10 @@ const StyledLink = styled.a`
     }
 `;
 
+const sanityIoImageLoader = ({ src, width, quality }) => {
+    return `https://cdn.sanity.io/${src}?w=${width}&q=${quality || 75}`
+  }
+
 const GameList = () => {
     return (
         <Nav>
