@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import Styled from "styled-components";
+import Script from 'next/script'
+
 
 const Layout = Styled.div`
     display: flex;
@@ -26,6 +28,7 @@ export default function Game() {
                 <link rel="icon" href="/img/icon.ico" />
             </Head>
             <Layout>
+                <Script src="html5.api.gamedistribution.com/libs/gd/api.js"></Script>
                 <iframe src="https://html5.gamedistribution.com/ce67b95f0db44d66b8b0dc48ade7ce1a/" title="description" frameBorder="0" allowFullScreen></iframe>
             </Layout>
         </>
