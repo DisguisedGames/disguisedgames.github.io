@@ -45,7 +45,12 @@ export default function Home() {
     <>
       <Head>
         <title>Home | Disguised</title>
-        <meta name="description" content="Not really disguised tho." />
+        <meta property="og:title" content="Site Title" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://disguisedgames.co.vu/" />
+        <meta property="og:image" content="https://disguisedgames.co.vu/img/logo.png" />
+        <meta property="og:description" content="Not really disguised tho." />
+        <meta name="theme-color" content="#oeoeoe"></meta>
         <link rel="icon" href="./img/icon.ico" />
     </Head>
     <Hero>
