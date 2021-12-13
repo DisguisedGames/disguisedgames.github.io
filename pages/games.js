@@ -25,6 +25,19 @@ const Layout = styled.div`
     padding: 2rem;
 `;
 
+const Underline = styled.p` {
+    height: 11vh;
+    color: #0e0e0e;
+    font-size: 1.25rem;
+    font-weight: 300;
+    src: url('../fonts/Roboto/Roboto.ttf');
+    display: flex;
+    justify-content: center;
+    align-items: flex;
+    max-width: 100vw;
+    padding-top: 2rem;
+`;
+
 export default function Games() {
   return (
     <>

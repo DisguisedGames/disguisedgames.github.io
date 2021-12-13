@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Nav = styled.nav`
     height: 70vh;
-    width: 75%;
+    width: 90%;
     background-color: #0e0e0e;
     color: #fff;
     display: center;
@@ -37,7 +37,7 @@ const Grid = styled.div`
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 1375px;
+    max-width: 1700px;
 `;
 
 const Game = styled.div`
@@ -201,6 +201,13 @@ const GameList = () => {
                         <Describe>The classic game everyone plays. Very fun.</Describe>
                         <Link href='/play/tetris' passHref>
                             <StyledLink> <Image src={'v1639390838/tetrismobile-icon-removebg-preview_b33ice.png'} alt="Game Image" height={232} width={238} /> </StyledLink>
+                        </Link>
+                    </Game>
+                    <Game>
+                        <Text>Minecraft Classic</Text>
+                        <Describe>The classic version of Minecraft. Play with your friends or alone.</Describe>
+                        <Link href='/play/minecraft-classic' passHref>
+                            <StyledLink> <Image src={'v1639406368/minecraft_logo_icon_168974_l8nexi.png'} alt="Game Image" height={232} width={238} /> </StyledLink>
                         </Link>
                     </Game>
                 </Grid>
