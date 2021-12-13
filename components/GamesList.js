@@ -58,11 +58,8 @@ const Game = styled.div`
         margin: 0rem;
         width: 100%;
         height: 50%;
-        justify-content: bottom;
-        align-items: bottom;
         border-radius: 10px;
         border: 1px solid #fff;
-    }
 `;
 
 const StyledLink = styled.a`
@@ -71,7 +68,7 @@ const StyledLink = styled.a`
         width: 100%;
         height: 50%;
         border-radius: 10px;
-        border: 1px solid #fff;
+        border: 1px solid #fff; 
     }
 `;
 
@@ -84,28 +81,28 @@ const GameList = () => {
                         <Text>Vex3</Text>
                         <Describe>Awesome platformer game. Version 3</Describe>
                         <Link href='/play/vex3' passHref>
-                            <StyledLink> <Image src={'v1639299396/Vex3_otgt3m.png'} alt="Game Image" height={232} width={238} /> </StyledLink>
+                            <StyledLink> <Image src={'v1639299396/Vex3_otgt3m.png'} alt="Game Image" height={232} width={238} priority /> </StyledLink>
                         </Link>
                     </Game>
                     <Game>
                         <Text>Vex4</Text>
                         <Describe>Awesome platformer game. Version 4</Describe>
                         <Link href='/play/vex4' passHref>
-                            <StyledLink> <Image src={'v1639299396/Vex4_pwzfex.png'} alt="Game Image" height={232} width={238} /> </StyledLink>
+                            <StyledLink> <Image src={'v1639299396/Vex4_pwzfex.png'} alt="Game Image" height={232} width={238} priority /> </StyledLink>
                         </Link>
                     </Game>
                     <Game>
                         <Text>Vex5</Text>
                         <Describe>Awesome platformer game. Version 5</Describe>
                         <Link href='/play/vex5' passHref>
-                            <StyledLink> <Image src={'v1639299396/Vex5_xzeihs.png'} alt="Game Image" height={232} width={238} /> </StyledLink>
+                            <StyledLink> <Image src={'v1639299396/Vex5_xzeihs.png'} alt="Game Image" height={232} width={238} priority /> </StyledLink>
                         </Link>
                     </Game>
                     <Game>
                         <Text>Vex6</Text>
                         <Describe>Awesome platformer game. Version 6</Describe>
                         <Link href='/play/vex6' passHref>
-                            <StyledLink> <Image src={'v1639299396/Vex6_l3ymmt.png'} alt="Game Image" height={232} width={238} /> </StyledLink>
+                            <StyledLink> <Image src={'v1639299396/Vex6_l3ymmt.png'} alt="Game Image" height={232} width={238} priority /> </StyledLink>
                         </Link>
                     </Game>
                     <Game>
@@ -197,6 +194,13 @@ const GameList = () => {
                         <Describe>Another basketball game, long and fun.</Describe>
                         <Link href='/play/taptap-shot' passHref>
                             <StyledLink> <Image src={'v1639331996/9c634fb94d3242369532cad391896fe0-512x512_r9yoii.png'} alt="Game Image" height={232} width={238} /> </StyledLink>
+                        </Link>
+                    </Game>
+                    <Game>
+                        <Text>Tetris</Text>
+                        <Describe>The classic game everyone plays. Very fun.</Describe>
+                        <Link href='/play/tetris' passHref>
+                            <StyledLink> <Image src={'v1639390838/tetrismobile-icon-removebg-preview_b33ice.png'} alt="Game Image" height={232} width={238} /> </StyledLink>
                         </Link>
                     </Game>
                 </Grid>
